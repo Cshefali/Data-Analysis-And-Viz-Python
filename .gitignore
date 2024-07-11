@@ -1,0 +1,15 @@
+#Ignore compiled Python files
+*.pyc
+
+#Ignore log files
+*.log
+
+#Ignore environment-specific files
+.env
+
+#Igore jupyter notebook checkpoint files
+.ipynb_checkpoints/
+
+#Ignore R history and project files
+.Rhistory
+*.Rproj
