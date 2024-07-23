@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* Apply Times New Roman to all text in markdown cells */
+div.text_cell_render {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.level2-heading {
+    background-color: #F0FFFF;
+    display: inline;
+    padding: 5px;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.level3-heading {
+    background-color: #F0FFFF;
+    display: inline;
+    padding: 5px;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.level4-heading {
+    background-color: #F0FFFF;
+    display: inline;
+    padding: 5px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+}
