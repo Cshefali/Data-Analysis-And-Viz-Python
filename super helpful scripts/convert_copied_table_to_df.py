@@ -61,4 +61,11 @@ columns = list(zip(*data))
 dict_data = {header[i] : list(columns[i]) for i in range(len(header))}
 
 #convert this dictionary to dataframe
-df = pd.DataFrame(dict_data)
+df = pd.DataFrame(dict_data, index=None)
+
+#df.head()
+df.info()
+
+#all values are string right now, convert to correct datatype.
+df['Duration'] = df['Duration'].astype(int)
+df['Date'] = pd.to_datetime(df['Date'], format='%Y/%m/%d')
